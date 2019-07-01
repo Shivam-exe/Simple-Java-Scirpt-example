@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOX COLOR</title>
+    <style>
+     body{
+         background:brown;
+     }
+     .fl{
+         float: left;
+     }
+     .fr{
+         float: right;
+     }
+     .new{
+         float:left;
+         margin-left: 1%;
+     }
+    .up{
+        margin-top:50px;
+        width:32.33%;
+        height:200px;
+        background:red;
+        display: none;
+        
+    }
+    .down{
+        margin-top:100px;
+        width:32.33%;
+        height:200px;
+        background:green;
+        display: none;
+        
+       
+    }
+   
+    h1{
+        text-align: center;
+        line-height: 100px;
+        color :white;
+    }
+    </style>
+    <script src="box2.js"></script>
+</head>
+<body>
+    <center>
+   
+    <button onclick="alls()">ALL</button>
+    <button onclick="reds()">RED</button>
+    <button onclick="greens()">GREEN</button>
+</center>
+
+    <div class="up fl" id="ups"><h1>RED</h1></div>
+    <div class="up new" id="ups1"><h1>RED!</h1></div>
+    <div class="up fr" id="ups2"><h1>RED!!</h1></div>
+
+    <div class="down fl" id="downs"><h1>GREEN</h1></div>
+    <div class="down new" id="downs1"><h1>GREEN!</h1></div>
+    <div class="down fr" id="downs2"><h1>GREEN!!</h1></div>
+
+    
+</body>
+</html>
